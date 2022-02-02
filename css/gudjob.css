@@ -1,0 +1,121 @@
+*{
+    font-family: 'Outfit';
+}
+
+.navbar{
+    font-family: 'Outfit';
+    background-color:#0F4875;
+    height: 80px;
+}
+.navbar-brand{
+    color: white;
+    font-size: 36px;
+}
+.navbar-brand .txtlogo{
+    color: #9B8BFF;
+}
+.navbar-nav{
+    position: relative;
+}
+.nav-item{
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+}
+.navbar-nav .btn{
+    color: white;
+    background-color: #9B8BFF;
+    font-size: 20px;
+    border-radius: 100px;
+    width: 100px;
+}
+
+.jumbotron{
+    background-image: url(../img/Background.png);
+    height: 1024px;
+    margin-top: 0px;
+    font-family: 'Outfit';
+}
+.jumbotron .display-4{
+    position: sticky;
+    margin-top: 200px;
+    margin-left: 10px;
+}
+.jumbotron .form-control{
+    margin-bottom: 15px;
+}
+.jumbotron .btn{
+    color: white;
+    background-color: #9B8BFF;
+    font-size: 20px;
+    border-radius: 100px;
+    width: 150px;
+    border-color: #0F4875;
+    border-width: 2px;
+}
+
+.tips .box-tips{
+    margin: auto;
+    font-family: 'Outfit';
+}
+.tips .label-tips{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.tips .head-tips{
+    margin-top: 40px;
+    color: #0F4875;
+}
+.head-tips .head-mod{
+    color: #95B7D3;
+}
+.tips .head-tips2{
+    color: #0F4875;
+}
+.tips .bg2{
+    margin-top: 600px;
+}
+.tips .box-tips{
+    margin-top: -950px;
+}
+.box-tips .box{
+    margin-top: 30px;
+}
+.box .card{
+    border-color:#0F4875;
+    border-width: 5px;
+    border-radius: 20px;
+    height: 340px;
+}
+.card .card-body{
+    text-align: center;
+}
+.card-body .card-text{
+    margin-top: 30px;
+}
+
+.footer{
+    font-family: 'Outfit';
+}
+.footer .abt1{
+    margin-top: 400px;
+    background-color: #0F4875;
+    text-align: center;
+    height: 250px;
+}
+.abt1 .jdlft{
+    font-size: 20px;
+    margin-top: 35px;
+}
+.footer .abt2{
+    background-color: darkslateblue;
+    height: 40px;
+}
+.abt2 .foot1{
+    margin-left: 40px;
+    margin-top: 5px;
+}
+.abt2 .footmod{
+    margin-top: 5px;
+    text-align: right;
+}

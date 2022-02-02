@@ -1,0 +1,76 @@
+*{
+    font-family: 'Outfit';
+}
+
+.navbar{
+    font-family: 'Outfit';
+    background-color:#0F4875;
+    height: 80px;
+}
+.navbar-brand{
+    color: white;
+    font-size: 36px;
+}
+.navbar-brand .txtlogo{
+    color: #9B8BFF;
+}
+.navbar-nav{
+    position: relative;
+}
+.nav-item{
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+}
+.navbar-nav .btn{
+    color: white;
+    background-color: #9B8BFF;
+    font-size: 20px;
+    border-radius: 100px;
+    width: 100px;
+}
+
+.bg2{
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    margin-top: -100px;
+}
+.box{
+    position: relative;
+    margin-left: 450px;
+    margin-top: 100px;
+    height: 340px;
+    width: 500px;
+}
+
+.box .card{
+    position: relative;
+    border-color:#0F4875;
+    border-width: 5px;
+    border-radius: 20px;
+}
+
+.card .card-body{
+    text-align: left;
+}
+
+.loginform{
+    text-align: start;
+}
+
+@media screen and (max-width: 400px){
+    .bg2{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .box{
+        position: relative;
+        margin-left: 0px;
+        margin-top: 10%;
+        height: 340px;
+        width: 400px;
+    }
+
+}
